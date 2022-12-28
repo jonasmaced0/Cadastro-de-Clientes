@@ -62,14 +62,14 @@ int main(void){
 		fgets(cliente[i].sexo, 15, stdin);
 		printf(" Digite o dia  do nasc.-----------------: ");
 		scanf("%d", &cliente[i].nascimento.dia);
-		printf(" Digite o mês  do nasc.-----------------: ");
+		printf(" Digite o mÃªs  do nasc.-----------------: ");
 		scanf("%d", &cliente[i].nascimento.mes);
 		printf(" Digite o ano  do nasc.-----------------: ");
 		scanf("%d", &cliente[i].nascimento.ano);
 		
 		
 	printf("\n");
-	printf("\n ----------------------- ENDEREÇO -----------------------\n ");
+	printf("\n ----------------------- ENDEREÃ‡O -----------------------\n ");
 	printf("\n");
 	
 		printf(" Digite sua rua-------------------------: ");
@@ -109,7 +109,7 @@ int main(void){
 	printf(" Estado-----------------------------: %s\n", cliente[i].endereco.estado);
 	printf(" CEP--------------------------------: %s\n", cliente[i].endereco.cep);
 	printf(" Dia do nascimento------------------: %d\n", cliente[i].nascimento.dia);
-	printf(" Mês do nascimento------------------: %d\n", cliente[i].nascimento.mes);
+	printf(" MÃªs do nascimento------------------: %d\n", cliente[i].nascimento.mes);
 	printf(" Ano do nascimento------------------: %d\n", cliente[i].nascimento.ano);
 	
 }
